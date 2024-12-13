@@ -2609,39 +2609,39 @@ extern Personatorium g_apersons[Personatorium::NumPersons]	=
 
 		// Names used to create animation resource filenames.
 			{
-			"3d/emp2",					// Example: "Gunner", as in "3d/GUNNER_shoot.sop".         
-			11,							// Texture to use
+			"3d/gramps",					// Example: "Gunner", as in "3d/GUNNER_shoot.sop".         
+			2,							// Texture to use
 			"hand",						// Name of channels of transforms for ammo.
 											// Example: "Bullet", as in "3d/gunner_shoot_BULLET.trans".
 			"hand",						// Name of channels of transforms for hand.
 											// Example: "hand", as in "3d/gunner_shoot_HAND.trans"
-			"employ2",					// Example: "main", as in "3d/gunner_shoot_MAIN.event".
+			"gramps",					// Example: "main", as in "3d/gunner_shoot_MAIN.event".
 			},
 
 		// Sound effects for this person.
 			{
-			&g_smidNudeShotOffMyAhhh2,		// ID of 'hit by weapon' sample.
-			&g_smidNudeMyGod,			// ID of 'hit by weapon' sample,
+			&g_smidOldManWhatsThatSunny,		// ID of 'hit by weapon' sample.
+			&g_smidBillGrunt,			// ID of 'hit by weapon' sample,
 			&g_smidShotGrunt,			// ID of 'hit by weapon' sample,
-			&g_smidVinceHu,			// ID of 'hit by weapon' sample,
+			&g_smidRandyHuu,			// ID of 'hit by weapon' sample,
 			&g_smidScottGrunt,		// ID of 'blown up' sample.     
 			&g_smidScottYell1,		// ID of 'blown up' sample.     
 			&g_smidScottHelp,			// ID of 'on fire' sample
 			&g_smidScottYell4,		// ID of 'on fire' sample
-			&g_smidNudeDontFeelFresh,		// ID of suffering sample 1.
-			&g_smidNudeHowEmbarrassing,		// ID of suffering sample 2.
-			&g_smidNudeDontDieNaked,// ID of suffering sample 3.
-			&g_smidNudeDontFeelFresh2,			// ID of suffering sample 4.
-			&g_smidNudeHowEmbarrassing,// ID of dying sample.          
-			&g_smidNudeHowEmbarrassing2,// ID of dying sample.          
-			&g_smidNudeNoOneSeeUs,  // ID of shooting comment.          
-			&g_smidNudeNoOneSeeUs2,// ID of shooting comment.
-			&g_smidNudeDontFeelFresh,// ID of shooting comment
-			&g_smidNudeDontFeelFresh2,	// ID of shooting comment       
-			&g_smidNudeNoOneSeeUs,	// ID of random comment        
-			&g_smidNudeNoOneSeeUs2,// ID of random comment         
-			&g_smidNudeDontFeelFresh,	// ID of random comment         
-			&g_smidNudeDontFeelFresh2,// ID of random comment         
+			&g_smidOldManSoiledSelf,		// ID of suffering sample 1.
+			&g_smidOldManColostomyBag,		// ID of suffering sample 2.
+			&g_smidOldManOwSpleen,// ID of suffering sample 3.
+			&g_smidOldManGroan,			// ID of suffering sample 4.
+			&g_smidOldManSoiledSelf2,// ID of dying sample.          
+			&g_smidScottCoughBlood2,// ID of dying sample.          
+			&g_smidNil,  // ID of shooting comment.          
+			&g_smidNil,// ID of shooting comment.
+			&g_smidNil,// ID of shooting comment
+			&g_smidNil,	// ID of shooting comment       
+			&g_smidOldManDontShoot,	// ID of random comment        
+			&g_smidOldManNoRespect,// ID of random comment         
+			&g_smidOldManInGreatWar2,	// ID of random comment         
+			&g_smidOldManWhatsThatSunny,// ID of random comment      
 			},
 
 		// Weapons for this person.  Currently, only one supported.
@@ -2662,43 +2662,43 @@ extern Personatorium g_apersons[Personatorium::NumPersons]	=
 		
 		{
 		// User level description of person.
-		"Nude 2",						// pszDescription.  Nude Woman
+		"Nude 2",						// pszDescription: 
 
 		// Names used to create animation resource filenames.
 			{
-			"3d/nude2",					// Example: "Gunner", as in "3d/GUNNER_shoot.sop".         
-			-1,							// Texture to use
+			"3d/gramps",					// Example: "Gunner", as in "3d/GUNNER_shoot.sop".         
+			3,							// Texture to use
 			"hand",						// Name of channels of transforms for ammo.
 											// Example: "Bullet", as in "3d/gunner_shoot_BULLET.trans".
 			"hand",						// Name of channels of transforms for hand.
 											// Example: "hand", as in "3d/gunner_shoot_HAND.trans"
-			"nude2",						// Example: "main", as in "3d/gunner_shoot_MAIN.event".
+			"gramps",						// Example: "main", as in "3d/gunner_shoot_MAIN.event".
 			},
 
 		// Sound effects for this person.
 			{
-			&g_smidWNudeDontShootNude,		// ID of 'hit by weapon' sample.
-			&g_smidShotFemaleGrunt,	// ID of 'hit by weapon' sample,
-			&g_smidCelinaUg,			// ID of 'hit by weapon' sample,
-			&g_smidDebbieAh,			// ID of 'hit by weapon' sample,
-			&g_smidWNudeHeShotOffMyAh,		// ID of 'blown up' sample.     
-			&g_smidSouthernBumLooker,		// ID of 'blown up' sample.     
-			&g_smidSouthernDieNaked,			// ID of 'on fire' sample
-			&g_smidSouthernNeedLawyer,		// ID of 'on fire' sample
-			&g_smidKimHelp,			// ID of suffering sample 1.
-			&g_smidKimCantBreathe,	// ID of suffering sample 2.
-			&g_smidWNudeDontFeelFresh,			// ID of suffering sample 3.
-			&g_smidWNudeDontFeelFresh,			// ID of suffering sample 4.
-			&g_smidWNudeHowEmbarrassing,// ID of dying sample.          
-			&g_smidWNudeHowEmbarrassing2,// ID of dying sample.          
+			&g_smidOldWomanMySpleen,		// ID of 'hit by weapon' sample.
+			&g_smidOldWomanOh,			// ID of 'hit by weapon' sample,
+			&g_smidOldWomanOh,			// ID of 'hit by weapon' sample,
+			&g_smidOldWomanOh,			// ID of 'hit by weapon' sample,
+			&g_smidOldWomanFindColostomy,		// ID of 'blown up' sample.     
+			&g_smidOldWomanOh,		// ID of 'blown up' sample.     
+			&g_smidOldWomanCantHear,			// ID of 'on fire' sample
+			&g_smidOldWomanColostomyBag,		// ID of 'on fire' sample
+			&g_smidOldWomanMySpleen,		// ID of suffering sample 1.
+			&g_smidOldWomanSoiledSelf2,		// ID of suffering sample 2.
+			&g_smidOldWomanOh,// ID of suffering sample 3.
+			&g_smidOldWomanFindColostomy,			// ID of suffering sample 4.
+			&g_smidOldWomanNoRespect,// ID of dying sample.          
+			&g_smidOldWomanSoiledSelf,// ID of dying sample.          
 			&g_smidNil,  // ID of shooting comment.          
 			&g_smidNil,// ID of shooting comment.
 			&g_smidNil,// ID of shooting comment
 			&g_smidNil,	// ID of shooting comment       
-			&g_smidWNudeNoOneSeeUs,	// ID of random comment        
-			&g_smidWNudeBumLooker,// ID of random comment         
-			&g_smidWNudeHowEmbarrassing,	// ID of random comment         
-			&g_smidWNudeDontFeelFresh,// ID of random comment         
+			&g_smidOldWomanNoRespect,	// ID of random comment        
+			&g_smidOldWomanEhWhatsThat,// ID of random comment         
+			&g_smidOldWomanCantHear,	// ID of random comment         
+			&g_smidOldWomanEhWhatsThat,// ID of random comment          
 			},
 
 		// Weapons for this person.  Currently, only one supported.
